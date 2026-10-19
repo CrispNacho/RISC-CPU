@@ -27,6 +27,7 @@ logic write_enable_b;
 logic [31:0] read_data_a;
 logic [31:0] read_data_b;
 
+/*
 dual_port_RAM_A RAM_inst0 (
 	.address_a ( address_a ),
 	.address_b ( address_b ),
@@ -38,6 +39,7 @@ dual_port_RAM_A RAM_inst0 (
 	.q_a ( read_data_a ),
 	.q_b ( read_data_b )
 );
+*/
 
 
 

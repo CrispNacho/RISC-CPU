@@ -18,8 +18,6 @@ echo "Compiling cpu.sv..."
 vlog -sv ../../rtl/cpu.sv
 echo "Compiling decoder.sv..."
 vlog -sv ../../rtl/decoder.sv
-echo "Compiling dual_port_RAM_A.v..."
-vlog -sv ../../rtl/dual_port_RAM_A.v
 
 echo "Compiling cpu_tb.sv..."
 vlog -sv ../tb/cpu_tb.sv
