@@ -12,26 +12,30 @@ vlib work
 vmap work work
 
 # Compile the design files
-echo "Compiling alu.sv..."
-vlog -sv ../../rtl/alu.sv
-echo "Compiling cpu.sv..."
-vlog -sv ../../rtl/cpu.sv
-echo "Compiling decoder.sv..."
-vlog -sv ../../rtl/decoder.sv
+echo "Compiling fsm.sv..."
+vlog -sv ../../rtl/fsm.sv
 
-echo "Compiling cpu_tb.sv..."
-vlog -sv ../tb/cpu_tb.sv
+echo "Compiling fsm.sv..."
+vlog -sv ../tb/fsm_tb.sv
+
 
 
 
 # Load the testbench module
 echo "Starting simulation..."
-vsim -gui work.cpu_tb
+vsim -gui work.fsm_tb
 
 # Add signals to waveform
 add wave -position insertpoint \
-    sim:/cpu_tb/CLK \
-    sim:/cpu_tb/RST 
+    sim:/fsm_tb/CLK \
+    sim:/fsm_tb/RST \
+    sim:/fsm_tb/DIN \
+    sim:/fsm_tb/PTRN \
+    sim:/fsm_tb/DUT/dout \
+    sim:/fsm_tb/DUT/cnt \
+    sim:/fsm_tb/DUT/bits \
+    sim:/fsm_tb/DUT/pattern
+
 
 
 # Run the simulation

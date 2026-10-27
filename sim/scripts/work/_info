@@ -8,123 +8,51 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/Evanc/Dev/Test verilog project/sim/scripts
-valu
+vfsm
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1792453463
+Z2 !s110 1792538884
 !i10b 1
-!s100 keg<Gf;WaMK=@5^c<13XQ2
-IcGkF^GUEV^5M_cEB?@FBf3
+!s100 nfC0?Bk=j[SHPG<oQnoDJ1
+IOaCjS1?7KjY<kJjfNVnDN0
 Z3 VDg1SIo80bB@j0V0VzS_@n1
-!s105 alu_sv_unit
+!s105 fsm_sv_unit
 S1
 R0
-w1784167834
-8../../rtl/alu.sv
-F../../rtl/alu.sv
+w1792536006
+8../../rtl/fsm.sv
+F../../rtl/fsm.sv
 L0 1
 Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1792453462.000000
-!s107 ../../rtl/alu.sv|
-!s90 -reportprogress|300|-sv|../../rtl/alu.sv|
+Z5 !s108 1792538884.000000
+!s107 ../../rtl/fsm.sv|
+!s90 -reportprogress|300|-sv|../../rtl/fsm.sv|
 !i113 1
 o-sv
-Z5 tCvgOpt 0
-vcpu
-R1
-DXx4 work 11 cpu_sv_unit 0 22 VzG8]^WaDN4I9hfcg>_dg1
-R3
-r1
-!s85 0
-31
-!i10b 1
-!s100 4T>NS=;LESUo2DR557meP0
-I`A=jGSc`H>d>BZNZKdC>G0
-!s105 cpu_sv_unit
-S1
-R0
-Z6 w1792453457
-Z7 8../../rtl/cpu.sv
-Z8 F../../rtl/cpu.sv
-L0 5
-R4
-Z9 !s108 1792453463.000000
-Z10 !s107 ..\..\rtl\define_state.h|../../rtl/cpu.sv|
-Z11 !s90 -reportprogress|300|-sv|../../rtl/cpu.sv|
-!i113 1
-o-sv
-R5
-Xcpu_sv_unit
-R1
-VVzG8]^WaDN4I9hfcg>_dg1
-r1
-!s85 0
-31
-!i10b 1
-!s100 ?MFEXb=S>d8^O:A^C>ZbJ1
-IVzG8]^WaDN4I9hfcg>_dg1
-!i103 1
-S1
-R0
-R6
-R7
-R8
-F..\..\rtl\define_state.h
-L0 3
-R4
-R9
-R10
-R11
-!i113 1
-o-sv
-R5
-vcpu_tb
+Z6 tCvgOpt 0
+vfsm_tb
 R1
 R2
 !i10b 1
-!s100 ADXg_b<Cm^=]F7?:fHXbI3
-I7JoUj40CAD5Z>W@1TQhNK2
+!s100 ;2GlNHmKJP5h5QSMa3cc91
+I`dhf7?iEMQA^2RTRc]bh[3
 R3
-!s105 cpu_tb_sv_unit
+!s105 fsm_tb_sv_unit
 S1
 R0
-w1784169318
-8../tb/cpu_tb.sv
-F../tb/cpu_tb.sv
+w1792538857
+8../tb/fsm_tb.sv
+F../tb/fsm_tb.sv
 L0 4
 R4
 r1
 !s85 0
 31
-R9
-!s107 ../tb/cpu_tb.sv|
-!s90 -reportprogress|300|-sv|../tb/cpu_tb.sv|
+R5
+!s107 ../tb/fsm_tb.sv|
+!s90 -reportprogress|300|-sv|../tb/fsm_tb.sv|
 !i113 1
 o-sv
-R5
-vdecoder
-R1
-R2
-!i10b 1
-!s100 GN][le[Cnfdji0WXaVFR93
-I2n:7F_DU;mL<PEfh>6OnH2
-R3
-!s105 decoder_sv_unit
-S1
-R0
-w1784168114
-8../../rtl/decoder.sv
-F../../rtl/decoder.sv
-L0 1
-R4
-r1
-!s85 0
-31
-R9
-!s107 ../../rtl/decoder.sv|
-!s90 -reportprogress|300|-sv|../../rtl/decoder.sv|
-!i113 1
-o-sv
-R5
+R6

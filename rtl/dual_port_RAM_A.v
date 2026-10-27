@@ -79,7 +79,7 @@ module dual_port_RAM_A (
 		altsyncram_component.outdata_reg_b = "UNREGISTERED",
 		altsyncram_component.power_up_uninitialized = "FALSE",
 		altsyncram_component.read_during_write_mode_mixed_ports = "DONT_CARE",
-		altsyncram_component.read_during_write_mode_port_a = "NEW_DATA_WITH_NBE_READ",
+		altsyncram_component.read_during_write_mode_port_a = "NEW_DATA_WITH_NBE_READ",	
 		altsyncram_component.read_during_write_mode_port_b = "NEW_DATA_WITH_NBE_READ",
 		altsyncram_component.widthad_a = 8,
 		altsyncram_component.widthad_b = 8,
